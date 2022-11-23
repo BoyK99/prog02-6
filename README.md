@@ -2,7 +2,7 @@
 
 ### Bekijk de headers in je browser via hulpprogramma’s voor ontwikkelaarsof ‘HTTP Headers extensie’ in je browser: 
 - Ga naar: [base64decode](https://www.base64decode.org/en) bekijk de headers 
-- Decodeer ‘SGVsbG8sIHdvcmxk’:
+- Decodeer ‘SGVsbG8sIHdvcmxk’:  
 "Hello, world"
 - Bekijk de headers, wat is veranderd aan de method:  
 Before  
