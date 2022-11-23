@@ -13,7 +13,7 @@ De header is van GET naar POST veranderd
 - Bezoek verschillende websites, en bekijk de request en response:
 Google, Github
 - Kan je de cookies vinden:
-F12->Netwerk->
+F12->Netwerk->Selecteer document(type)->Cookies tab
 
 
 ### Zoek uit welke http methods er zijn, en waarvoor je ze gebruikt bij RESTful Webservices. 
