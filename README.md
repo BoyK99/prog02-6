@@ -4,9 +4,8 @@
 - Ga naar: [base64decode](https://www.base64decode.org/en) bekijk de headers 
 - Decodeer ‘SGVsbG8sIHdvcmxk’:
 "Hello, world"
-- Bekijk de headers, wat is veranderd aan de method:
+- Bekijk de headers, wat is veranderd aan de method:  
 ![Before](https://github.com/BoyK99/prog02-6/blob/master/img/before.png?raw=true)
-
 ![After](https://github.com/BoyK99/prog02-6/blob/master/img/after.png?raw=true)  
 De header is van GET naar POST veranderd
 - Bezoek verschillende websites, en bekijk de request en response:
