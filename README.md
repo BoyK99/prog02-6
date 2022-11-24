@@ -10,9 +10,9 @@ Before
 After  
 ![After](https://github.com/BoyK99/prog02-6/blob/master/img/after.png?raw=true)  
 De header is van GET naar POST veranderd
-- Bezoek verschillende websites, en bekijk de request en response:
+- Bezoek verschillende websites, en bekijk de request en response:  
 Google, Github
-- Kan je de cookies vinden:
+- Kan je de cookies vinden:  
 F12->Netwerk->Selecteer document(type)->Cookies tab
 
 
