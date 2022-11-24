@@ -25,12 +25,6 @@ F12->Netwerk->Selecteer document(type)->Cookies tab
 | PATCH  | Update specifieke data (update deel)   | Nee  | Ja         |
 | DELETE | Verwijder data (delete)                | Nee  | Ja/Nee     |
 | HEAD   | GET zonder body                        | Ja   | Ja         |
-- HTTP GET      = Haal data op (vraag op) - Safe en potent
-- HTTP POST     = Geef data door (creer nieuw) - niet safe niet potent
-- HTTP PUT      = Update data helemaal (update helemaal) - niet safe wel potent
-- HTTP PATCH    = Update specifieke data (update deel) - niet safe wel potent
-- HTTP DELETE   = Verwijder data (delete) - niet safe twijfel potent
-- HTTP HEAD     = GET zonder body - safe en potent
 
 ### Wat betekent de term idempotency?
 "Idempotentie is de eigenschap van een object en/of een operatie daarop dat het object niet meer verandert als de operatie nogmaals wordt uitgevoerd" -Wikipedia
