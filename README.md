@@ -20,7 +20,7 @@ F12->Netwerk->Selecteer document(type)->Cookies tab
 | Method  | Waarvoor?                              | Safe | Idempotent |
 |---------|----------------------------------------|------|------------|
 | GET     | Haal data op (vraag op)                | Ja   | Ja         |
-| POST    | Geef data door (creer nieuw)           | Nee  | Nee        |
+| POST    | Geef data door (creëer nieuw)           | Nee  | Nee        |
 | PUT     | Update data helemaal (update helemaal) | Nee  | Ja         |
 | PATCH   | Update specifieke data (update deel)   | Nee  | Ja         |
 | DELETE  | Verwijder data (delete)                | Nee  | Ja/Nee     |
