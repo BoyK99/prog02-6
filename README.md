@@ -1,13 +1,13 @@
-## Vragen les 1:
+# Vragen les 1:
 
 ### Bekijk de headers in je browser via hulpprogramma’s voor ontwikkelaarsof ‘HTTP Headers extensie’ in je browser: 
 - Ga naar: [base64decode](https://www.base64decode.org/en) bekijk de headers 
 - Decodeer ‘SGVsbG8sIHdvcmxk’:  
 "Hello, world"
-- Bekijk de headers, wat is veranderd aan de method:  
-Before  
+- Bekijk de headers, wat is veranderd aan de method:      
+Laden pagina:
 ![Before](https://github.com/BoyK99/prog02-6/blob/master/img/before.png?raw=true)  
-After  
+Na decoden:
 ![After](https://github.com/BoyK99/prog02-6/blob/master/img/after.png?raw=true)  
 De header is van GET naar POST veranderd
 - Bezoek verschillende websites, en bekijk de request en response:  
@@ -32,3 +32,5 @@ F12->Netwerk->Selecteer document(type)->Cookies tab
 
 ### Wat betekent LTS?
 LTS betekent Long Time Support
+
+# Vragen les 2:
