@@ -20,6 +20,7 @@ https://www.youtube.com/watch?v=vjf774RKrLc&t=1s
   
   
 **_Opdrachten_**  
+
 _Postman_  
 - Installeer een REST Client (bijv. Postman)  
 - Haal met GET de collectie https://docent.cmi.hro.nl/bootb/demo/notes/op, zowel JSON als XML
