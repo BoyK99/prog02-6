@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=-0exw-9YJBo
 https://www.youtube.com/playlist?list=PLS1QulWo1RIYsfKyjbctLaMvEJw3kZItQ
 - Build A REST API With Node.js, Express, & MongoDB –Quick  
 https://www.youtube.com/watch?v=fgTGADljAeg
-- Build A Restful Api With Node.js Express &MongoDB | Rest Api Tutorial  
+- Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial  
 https://www.youtube.com/watch?v=vjf774RKrLc&t=1s
   
   
@@ -28,35 +28,37 @@ _Postman_
 - Maak nu een nieuwe note aan (als JSON) 
 - Maak nog een nieuwe note aan (nu als x-www-form-urlencoded) 
 - Pas je note aan(PUT) 
-- Verwijder je noteweer(DELETE)  
+- Verwijder je note weer(DELETE)  
 
-_Praktijkopdracht (server)_  
+_opdracht (server)_  
 _Als je nog geen VPS hebt, moet je dat eerstnogregelen (zie lesbrief week 1)._  
 
-- InstalleerNode op je server via ssh(zie link onderaan de lesbrief, of screencast op Teams).
-- Zet je hello worldproject van vorige week op de server en check of het werkt.  
+- Installeer Node op je server via ssh (zie link onderaan de lesbrief, of screencast op Teams).
+- Zet je hello world project van vorige week op de server en check of het werkt.  
 
 
 _Praktijkopdracht (local, oefenen zonder db)_ 
-- Bedenk een structuur voor een item•Creeer array met json objecten (collection)
+- Bedenk een structuur voor een item
+- Creeer array met json objecten (collection)
 - Implementeer GET om de collectie te tonen
 - Implementeer GET voor een detailuit de array
 
 _Praktijkopdracht (local, start eindopdracht met db)_
-- InstalleerMongoDBlokaal
-  - Mac OS: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/(het is het handigst om hem als service te starten na installatie:  
+- Installeer MongoDB lokaal
+  - Mac OS: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/  (het is het handigst om hem als service te starten na installatie:  
   ```brew services start mongodb/brew/mongodb-community)```
   - Windows: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/(het is het handigst om als service te installeren).
-- Lees de opdrachtomschrijving van praktijkopdracht 1op Cumlaude(!).
+- Lees de opdracht omschrijving van praktijkopdracht 1 op Cumlaude(!).
 - Bedenk een onderwerp voor je eerste praktische opdracht. Het is toegestaan een tutorial te volgen, **maar je moet deze wel aanpassen aan je eigen onderwerp!**
-- Maak deGET, POST en OPTIONS1voor de collectie resourcevoor je opdracht. 
+- Maak de GET, POST en OPTIONS1voor de collectie resourcevoor je opdracht. 
 - Maak ook de GET en OPTIONS voor de detail-resource.  
 
 (1) Let op: Je beantwoordt een OPTIONS request altijd met ‘Allow’. Eventueel kan je (extra) ook de ‘Access-Control-Allow-Methods’ toevoegen. 
 - Gebruik een poort tussen 8000-9000voor je node applicatie anders werkt hij op de server niet.  
 
-_Praktijkopdra,cht (server)_  
-- Installeer MongoDB op de server (zie de link onderaan de lesbrief, of screencast op Teams) en test je project op de server.NB. De data in je database wordt uiteraard niet overgezet naar de server, dus je GET geeft een lege lijst terug.
+_Praktijkopdracht (server)_  
+- Installeer MongoDB op de server (zie de link onderaan de lesbrief, of screencast op Teams) en test je project op de server.  
+NB. De data in je database wordt uiteraard niet overgezet naar de server, dus je GET geeft een lege lijst terug.
 
 _Installatie op de server (screencastsvan de installatie zijn beschikbaar in Teams)_
 - Node.js  
