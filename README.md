@@ -17,11 +17,12 @@ F12->Netwerk->Selecteer document(type)->Cookies tab
 
 
 ### Zoek uit welke http methods er zijn, en waarvoor je ze gebruikt bij RESTful Webservices. 
-- HTTP GET      = Haal data op
-- HTTP POST     = Geef data door
-- HTTP PUT      = Update data helemaal
-- HTTP DELETE   = Verwijder data
-- HTTP PATCH    = Update specifieke data
+- HTTP GET      = Haal data op (vraag op)
+- HTTP POST     = Geef data door (creer nieuw)
+- HTTP PUT      = Update data helemaal (update helemaal)
+- HTTP DELETE   = Verwijder data (delete)
+- HTTP PATCH    = Update specifieke data (update deel)
+- HTTP HEAD     = GET zonder body
 
 ### Wat betekent de term idempotency?
 "Idempotentie is de eigenschap van een object en/of een operatie daarop dat het object niet meer verandert als de operatie nogmaals wordt uitgevoerd" -Wikipedia
