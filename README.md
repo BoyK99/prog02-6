@@ -5,9 +5,9 @@
 - Decodeer ‘SGVsbG8sIHdvcmxk’:  
 "Hello, world"
 - Bekijk de headers, wat is veranderd aan de method:      
-Laden pagina:
+Laden pagina:  
 ![Before](https://github.com/BoyK99/prog02-6/blob/master/img/before.png?raw=true)  
-Na decoden:
+Na decoden:  
 ![After](https://github.com/BoyK99/prog02-6/blob/master/img/after.png?raw=true)  
 De header is van GET naar POST veranderd
 - Bezoek verschillende websites, en bekijk de request en response:  
