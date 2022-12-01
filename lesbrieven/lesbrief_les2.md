@@ -58,7 +58,7 @@ _Praktijkopdracht (local, start eindopdracht met db)_
 - Installeer MongoDB lokaal
   - Mac OS: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/  
   (het is het handigst om hem als service te starten na installatie:  
-  ```brew services start mongodb/brew/mongodb-community)```
+  ```brew services start mongodb/brew/mongodb-community```)
   - Windows: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/  
   (het is het handigst om als service te installeren).
 - Lees de opdracht omschrijving van praktijkopdracht 1 op Cumlaude(!).
