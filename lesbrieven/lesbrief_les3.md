@@ -1,6 +1,7 @@
 CMTPRG04-6, Werkcollege –Lesbrief 3  
 _Theorie_  
 - Zie video’s van vorige week.  
+
 _Opdrachten_  
 - Zorg dat je collectie in de standaard structuur –zoals behandeld tijdens de les-komt:  
 ```
