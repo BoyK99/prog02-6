@@ -3,17 +3,17 @@
 ### Bekijk de headers in je browser via hulpprogramma’s voor ontwikkelaarsof ‘HTTP Headers extensie’ in je browser: 
 - Ga naar: [base64decode](https://www.base64decode.org/en) bekijk de headers 
 - Decodeer ‘SGVsbG8sIHdvcmxk’:  
-"Hello, world"
+_"Hello, world"_
 - Bekijk de headers, wat is veranderd aan de method:      
 Laden pagina:  
 ![Before](https://github.com/BoyK99/prog02-6/blob/master/img/before.png?raw=true)  
 Na decoden:  
 ![After](https://github.com/BoyK99/prog02-6/blob/master/img/after.png?raw=true)  
-De header is van GET naar POST veranderd
+_De header is van GET naar POST veranderd_
 - Bezoek verschillende websites, en bekijk de request en response:  
-Google, Github
+_Google, Github_
 - Kan je de cookies vinden:  
-F12->Netwerk->Selecteer document(type)->Cookies tab
+_F12->Netwerk->Selecteer document(type)->Cookies tab_
 
 
 ### Zoek uit welke http methods er zijn, en waarvoor je ze gebruikt bij RESTful Webservices.  
@@ -28,9 +28,9 @@ F12->Netwerk->Selecteer document(type)->Cookies tab
 | OPTIONS | Vraagt welke methods mogen             | Ja   | Ja         |
 
 ### Wat betekent de term idempotency?
-"Idempotentie is de eigenschap van een object en/of een operatie daarop dat het object niet meer verandert als de operatie nogmaals wordt uitgevoerd" -Wikipedia
+_"Idempotentie is de eigenschap van een object en/of een operatie daarop dat het object niet meer verandert als de operatie nogmaals wordt uitgevoerd" -Wikipedia_
 
 ### Wat betekent LTS?
-LTS betekent Long Time Support
+_LTS betekent Long Time Support_
 
 # Vragen les 2:
