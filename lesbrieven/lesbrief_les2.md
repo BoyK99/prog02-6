@@ -31,8 +31,7 @@ _Postman_
 - Verwijder je note weer(DELETE)  
 
 _opdracht (server)_  
-_Als je nog geen VPS hebt, moet je dat eerstnogregelen (zie lesbrief week 1)._  
-
+_Als je nog geen VPS hebt, moet je dat eerst nog regelen (zie lesbrief week 1)._  
 - Installeer Node op je server via ssh (zie link onderaan de lesbrief, of screencast op Teams).
 - Zet je hello world project van vorige week op de server en check of het werkt.  
 
