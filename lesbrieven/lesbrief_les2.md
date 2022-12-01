@@ -44,9 +44,11 @@ _Praktijkopdracht (local, oefenen zonder db)_
 
 _Praktijkopdracht (local, start eindopdracht met db)_
 - Installeer MongoDB lokaal
-  - Mac OS: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/  (het is het handigst om hem als service te starten na installatie:  
+  - Mac OS: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/  
+  (het is het handigst om hem als service te starten na installatie:  
   ```brew services start mongodb/brew/mongodb-community)```
-  - Windows: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/  (het is het handigst om als service te installeren).
+  - Windows: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/  
+  (het is het handigst om als service te installeren).
 - Lees de opdracht omschrijving van praktijkopdracht 1 op Cumlaude(!).
 - Bedenk een onderwerp voor je eerste praktische opdracht. Het is toegestaan een tutorial te volgen, **maar je moet deze wel aanpassen aan je eigen onderwerp!**
 - Maak de GET, POST en OPTIONS(1) voor de collectie resource voor je opdracht. 
