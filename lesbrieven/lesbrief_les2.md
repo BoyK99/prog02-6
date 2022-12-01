@@ -30,7 +30,7 @@ _Postman_
 - Pas je note aan(PUT) 
 - Verwijder je note weer(DELETE)  
 
-_opdracht (server)_  
+_Praktijkopdracht (server)_  
 _Als je nog geen VPS hebt, moet je dat eerst nog regelen (zie lesbrief week 1)._  
 - Installeer Node op je server via ssh (zie link onderaan de lesbrief, of screencast op Teams).
 - Zet je hello world project van vorige week op de server en check of het werkt.  
@@ -40,20 +40,20 @@ _Praktijkopdracht (local, oefenen zonder db)_
 - Bedenk een structuur voor een item
 - Creeer array met json objecten (collection)
 - Implementeer GET om de collectie te tonen
-- Implementeer GET voor een detailuit de array
+- Implementeer GET voor een detail uit de array
 
 _Praktijkopdracht (local, start eindopdracht met db)_
 - Installeer MongoDB lokaal
   - Mac OS: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/  (het is het handigst om hem als service te starten na installatie:  
   ```brew services start mongodb/brew/mongodb-community)```
-  - Windows: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/(het is het handigst om als service te installeren).
+  - Windows: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/  (het is het handigst om als service te installeren).
 - Lees de opdracht omschrijving van praktijkopdracht 1 op Cumlaude(!).
 - Bedenk een onderwerp voor je eerste praktische opdracht. Het is toegestaan een tutorial te volgen, **maar je moet deze wel aanpassen aan je eigen onderwerp!**
-- Maak de GET, POST en OPTIONS1voor de collectie resourcevoor je opdracht. 
+- Maak de GET, POST en OPTIONS(1) voor de collectie resource voor je opdracht. 
 - Maak ook de GET en OPTIONS voor de detail-resource.  
 
 (1) Let op: Je beantwoordt een OPTIONS request altijd met ‘Allow’. Eventueel kan je (extra) ook de ‘Access-Control-Allow-Methods’ toevoegen. 
-- Gebruik een poort tussen 8000-9000voor je node applicatie anders werkt hij op de server niet.  
+- Gebruik een poort tussen 8000-9000 voor je node applicatie anders werkt hij op de server niet.  
 
 _Praktijkopdracht (server)_  
 - Installeer MongoDB op de server (zie de link onderaan de lesbrief, of screencast op Teams) en test je project op de server.  
