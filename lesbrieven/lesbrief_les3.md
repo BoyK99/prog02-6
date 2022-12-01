@@ -2,7 +2,15 @@ CMTPRG04-6, Werkcollege –Lesbrief 3
 _paiTheorie_  
 - Zie video’s van vorige week.Opdrachten  
 - Zorg dat je collectie in de standaard structuur –zoals behandeld tijdens de les-komt:  
-```{ "items": [ ...hier de collectie met items... ],"_links": { ...met link naar self...},"pagination": { temp: “pagination maken we later af”}}```  
+```
+{  
+  "items": [ ...hier de collectie met items... ],  
+  "_links": { ...met link naar self...},  
+  "pagination": {  
+         temp: “pagination maken we later af”
+  }
+}  
+```  
 - Zet je array met items in “items”.
 - Vul het “_ links” object met de juiste gegevens voor de collectie.
 - Let op! Later moet de dummy content natuurlijk echte pagination worden, maar zet er nu gewoon even iets in zodat de checker ziet dat je basis structuur klopt
