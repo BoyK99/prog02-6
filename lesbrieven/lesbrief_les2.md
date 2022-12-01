@@ -27,8 +27,16 @@ _Postman_
 _GET docent.cmi.hro.nl/bootb/demo/notes_
 - Haal een detail resource op om de JSON indeling te zien  
 _docent.cmi.hro.nl/bootb/demo/notes/20923_
-- Maak nu een nieuwe note aan (als JSON) 
-- Maak nog een nieuwe note aan (nu als x-www-form-urlencoded) 
+- Maak nu een nieuwe note aan (als JSON)  
+```
+{
+    "title": "faka neef",
+    "body": "Bee Movie Better than Farmville, anyway",
+    "author": "Poepje"
+}
+```
+- Maak nog een nieuwe note aan (nu als x-www-form-urlencoded)  
+![image](https://user-images.githubusercontent.com/89838779/205070056-9c11bc23-2f0b-4ee9-bd0f-f9dafdc967c1.png)
 - Pas je note aan(PUT) 
 - Verwijder je note weer(DELETE)  
 
