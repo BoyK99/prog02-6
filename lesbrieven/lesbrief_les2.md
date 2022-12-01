@@ -23,7 +23,7 @@ https://www.youtube.com/watch?v=vjf774RKrLc&t=1s
 
 _Postman_  
 - Installeer een REST Client (bijv. Postman)  
-- Haal met GET de collectie https://docent.cmi.hro.nl/bootb/demo/notes/op, zowel JSON als XML
+- Haal met GET de collectie https://docent.cmi.hro.nl/bootb/demo/notes/ op, zowel JSON als XML
 - Haal een detail resource op om de JSON indeling te zien 
 - Maak nu een nieuwe note aan (als JSON) 
 - Maak nog een nieuwe note aan (nu als x-www-form-urlencoded) 
