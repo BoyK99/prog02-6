@@ -6,7 +6,7 @@ https://www.codecademy.com/articles/what-is-rest
 - Cheat sheet linux commando’s  
 https://cheatography.com/davechild/cheat-sheets/linux-command-line/  
 
-_Tutorials(optioneel, aanvulling /extra uitleg bij de lessen)_  
+_Tutorials(optioneel, aanvulling/extra uitleg bij de lessen)_  
 - Learn The MERN Stack -Express & MongoDB Rest API  
 https://www.youtube.com/watch?v=-0exw-9YJBo
 - Node Mongodb Express Restful Api (playlist)    
@@ -23,8 +23,10 @@ https://www.youtube.com/watch?v=vjf774RKrLc&t=1s
 
 _Postman_  
 - Installeer een REST Client (bijv. Postman)  
-- Haal met GET de collectie https://docent.cmi.hro.nl/bootb/demo/notes/ op, zowel JSON als XML
-- Haal een detail resource op om de JSON indeling te zien 
+- Haal met GET de collectie https://docent.cmi.hro.nl/bootb/demo/notes/ op, zowel JSON als XML  
+_GET docent.cmi.hro.nl/bootb/demo/notes_
+- Haal een detail resource op om de JSON indeling te zien  
+_docent.cmi.hro.nl/bootb/demo/notes/20923_
 - Maak nu een nieuwe note aan (als JSON) 
 - Maak nog een nieuwe note aan (nu als x-www-form-urlencoded) 
 - Pas je note aan(PUT) 
