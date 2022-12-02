@@ -46,6 +46,7 @@ _Opdrachten_
  
  _Voorbereiding Theorieles_ 
  - Zoek uit welke http methods er zijn, en waarvoor je ze gebruikt bij RESTful Webservices.  
+  
 | Method  | Waarvoor?                              | Safe | Idempotent |
 |---------|----------------------------------------|------|------------|
 | GET     | Haal data op (vraag op)                | Ja   | Ja         |
