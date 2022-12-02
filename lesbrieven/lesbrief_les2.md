@@ -6,7 +6,7 @@ https://www.codecademy.com/articles/what-is-rest
 - Cheat sheet linux commando’s  
 https://cheatography.com/davechild/cheat-sheets/linux-command-line/  
 
-_Tutorials(optioneel, aanvulling/extra uitleg bij de lessen)_  
+_Tutorials (optioneel, aanvulling/extra uitleg bij de lessen)_  
 - Learn The MERN Stack -Express & MongoDB Rest API  
 https://www.youtube.com/watch?v=-0exw-9YJBo
 - Node Mongodb Express Restful Api (playlist)    
@@ -37,9 +37,9 @@ _docent.cmi.hro.nl/bootb/demo/notes/20923_
 ```
 - Maak nog een nieuwe note aan (nu als x-www-form-urlencoded)  
 ![image](https://user-images.githubusercontent.com/89838779/205070056-9c11bc23-2f0b-4ee9-bd0f-f9dafdc967c1.png)
-- Pas je note aan(PUT)  
+- Pas je note aan (PUT)  
 ![image](https://user-images.githubusercontent.com/89838779/205070952-5995cc6a-9f6a-4931-8c5c-7ba8d1851b71.png)
-- Verwijder je note weer(DELETE)  
+- Verwijder je note weer (DELETE)  
 ![image](https://user-images.githubusercontent.com/89838779/205071040-01431cc7-6451-4781-acca-6b09b5db7555.png)  
 
 _Praktijkopdracht (server)_  
@@ -87,7 +87,13 @@ _Praktijkopdracht (local, oefenen zonder db)_
     ]
 ```
 - Implementeer GET om de collectie te tonen
+```
+GET /items
+```
 - Implementeer GET voor een detail uit de array
+```
+GET /items/:id
+```
 
 _Praktijkopdracht (local, start eindopdracht met db)_
 - Installeer MongoDB lokaal
