@@ -44,8 +44,10 @@ _docent.cmi.hro.nl/bootb/demo/notes/20923_
 
 _Praktijkopdracht (server)_  
 _Als je nog geen VPS hebt, moet je dat eerst nog regelen (zie lesbrief week 1)._  
-- Installeer Node op je server via ssh (zie link onderaan de lesbrief, of screencast op Teams).
+- Installeer Node op je server via ssh (zie link onderaan de lesbrief, of screencast op Teams).  
+![image](https://user-images.githubusercontent.com/89838779/205190554-2f570a3c-7200-46b0-97ce-e4441b60f18a.png)
 - Zet je hello world project van vorige week op de server en check of het werkt.  
+![image](https://user-images.githubusercontent.com/89838779/205190697-c277f37f-9ae8-4964-ba11-043f305ab4bd.png)
 
 
 _Praktijkopdracht (local, oefenen zonder db)_ 
