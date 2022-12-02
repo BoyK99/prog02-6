@@ -28,7 +28,7 @@ _GET docent.cmi.hro.nl/bootb/demo/notes_
 - Haal een detail resource op om de JSON indeling te zien  
 _docent.cmi.hro.nl/bootb/demo/notes/20923_
 - Maak nu een nieuwe note aan (als JSON)  
-```
+```json
 {
     "title": "faka neef",
     "body": "Bee Movie Better than Farmville, anyway",
