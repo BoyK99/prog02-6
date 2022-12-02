@@ -51,8 +51,41 @@ _Als je nog geen VPS hebt, moet je dat eerst nog regelen (zie lesbrief week 1)._
 
 
 _Praktijkopdracht (local, oefenen zonder db)_ 
-- Bedenk een structuur voor een item
-- Creeer array met json objecten (collection)
+- Bedenk een structuur voor een item  
+```json
+{
+    "firstName": "Sonoo",   
+    "lastName": "Jaiswal",   
+    "age": 27,  
+    "address" : {  
+        "state": "UP",  
+        "postalCode": "201007"  
+    }  
+}
+```
+- Creeer array met json objecten (collection)  
+```json
+    [
+        {
+             "firstName": "Sonoo",   
+             "lastName": "Jaiswal",   
+             "age": 27,  
+             "address" : {  
+                 "state": "UP",  
+                 "postalCode": "201007"  
+             }  
+         },
+         {
+             "firstName": "Son",   
+             "lastName": "Jai",   
+             "age": 7,  
+             "address" : {  
+                 "state": "IA",  
+                 "postalCode": "201012"  
+             }  
+         }
+    ]
+```
 - Implementeer GET om de collectie te tonen
 - Implementeer GET voor een detail uit de array
 
