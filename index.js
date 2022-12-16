@@ -1,7 +1,12 @@
 const express = require("express");
+const bodyParser = require('body-parser')
+
+// Load env file
+require('dotenv').config()
 
 // Import the mongoose module
 const mongoose = require("mongoose");
+mongoose.set('strictQuery', false)
 
 // Set up default mongoose connection
 const mongoDB = "mongodb://127.0.0.1/recepten";
@@ -16,7 +21,7 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 // Create webserver
 const app = express();
 
-const receptenRouter = require("./routers/receptenRouter");
+const receptenRouter = require("./routers/receptenRoutes");
 
 // Create route /
 app.use("/recepten/", receptenRouter);
