@@ -5,7 +5,7 @@ _Theorie_
 _Opdrachten_  
 - Zorg dat je collectie in de standaard structuur –zoals behandeld tijdens de les-komt:  
 ```
-{  
+{   
   "items": [ ...hier de collectie met items... ],  
   "_links": { ...met link naar self...},  
   "pagination": {  

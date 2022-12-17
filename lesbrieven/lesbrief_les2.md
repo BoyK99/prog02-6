@@ -1,4 +1,4 @@
-#### **CMTPRG04-6, Werkcollege –Lesbrief 2** 
+#### **CMTPRG04-6, Werkcollege –Lesbrief 2**  
 _Theorie_   
 - What is REST?  
 Overzicht en achtergrondinformatie van de REST architectuur  
