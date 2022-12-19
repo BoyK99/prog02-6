@@ -21,13 +21,17 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 // Create webserver
 const app = express();
 
-const receptenRouter = require("./routers/receptenRoutes");
+// Use bodyparser middleware to parse x-form-www-urlencoded
+app.use(bodyParser.urlencoded({extended: true}));
+// Use bodyparser middleware to parse json data
+app.use(bodyParser.json({type: 'application/json'}));
 
-// Create route /
-app.use("/recepten/", receptenRouter);
+// Create route endpoint and conenct to recepten router
+app.use("/recepten/", require("./routers/receptenRoutes"));
 
 // Start webserver on port 8000
 app.listen(8000, () => {
-    console.log("server rimmomg");
+    // console.log("server rimmomg");
+    console.log("Server is running on", process.env.BASE_URI);
 })
 

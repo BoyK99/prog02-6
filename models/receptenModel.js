@@ -11,7 +11,7 @@ const ReceptenSchema = new Schema({
     kitchen: String
 },
     {
-            toJSON: {virtuals: true}
+        toJSON: {virtuals: true}
     })
 
 // Add virtual property to each object to include links

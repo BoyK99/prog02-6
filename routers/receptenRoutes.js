@@ -45,12 +45,23 @@ router.get("/:id", async (req, res) => {
     // res.send(` request for item ${req.params.id}`);
 })
 
-// Middleware checkt header content-type
+// Middleware checkt header content-type for POST
 router.post("/", (req, res, next) => {
+    console.log("POST middleware to check Content-Type")
     if (req.header("Content-Type") == "application/json") {
         next();
     } else {
         res.status(415).send();
+    }
+});
+
+// Add middleware to disallow empty values
+router.post("/", (req, res, next) => {
+    console.log("POST middleware to check empty values")
+    if (req.body.title && req.body.recipe && req.body.ingredients && req.body.kitchen) {
+        next();
+    } else {
+        res.status(400).send();
     }
 });
 
@@ -79,15 +90,15 @@ router.post("/", async (req, res) => {
 })
 
 // Create DELETE route
-router.delete("/", (req,res) => {
-    console.log("DELETE");
-    res.send("Yssssss!");
+router.delete("/", (req, res) => {
+    res.delete();
+    res.send();
 })
 
 // Create OPTIONS route
-router.options("/", (req,res) => {
-    console.log("OPTIONS");
-    res.send("Yssssss!");
+router.options("/", (req, res) => {
+    res.setHeader("Allow", "GET, POST, OPTIONS");
+    res.send();
 })
 
 module.exports = router;
