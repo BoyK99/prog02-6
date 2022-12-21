@@ -29,6 +29,10 @@ app.use(bodyParser.json({type: 'application/json'}));
 // Create route endpoint and conenct to recepten router
 app.use("/recepten/", require("./routers/receptenRoutes"));
 
+app.use(bodyParser.json());
+
+app.use("/recepten/", require("./routers/receptenRoutes"));
+
 // Start webserver on port 8000
 app.listen(8000, () => {
     // console.log("server rimmomg");
