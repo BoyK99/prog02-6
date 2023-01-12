@@ -1,4 +1,4 @@
-// Require Mongoose
+// Require Mongoos
 const mongoose = require("mongoose");
 
 // Define a schema
